@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials | Coffee Website</title>
+    <link rel="stylesheet" href="testimonial.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#">Coffee<span>.</span></a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="keerthana fwd project.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="testimonials.html" class="active">Testimonials</a></li>
+          <li><a href="about us.html">About us</a></li>
+          <li><a href="contact us.html">Contact us</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="content">
+        <h2>What Our Customers Say</h2>
+        <p>
+          Our customers love our coffee and we love them! Here are some of the testimonials from our happy customers.
+        </p>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="testimonial">
+        <p>
+          "I've been a coffee lover all my life and I must say, Coffee Co.'s coffee is the best I've ever had. The rich aroma and the smooth taste are simply unbeatable."
+        </p>
+        <h2>Rosie</h2>
+      </div>
+      <div class="testimonial">
+        <p>
+          <u>"A coffee lover, often referred to as a coffee enthusiast or coffee connoisseur, is someone who has a strong passion and appreciation for coffee. 
+          This term typically describes individuals who enjoy coffee not just as
+           a beverage to provide caffeine but as a sensory experience.</u></p>
+        <h2>Jane Doe</h2>
+      </div>
+      <div class="testimonial">
+        <p>
+          <i>"“I like my coffee like I like my mornings: caffeinated and optimistic.” 
+          “Coffee and confidence: the perfect brew.” “I don't need an inspirational quote; I need coffee.” 
+          “Coffee: because angry is not avalable</i></p>
+        
+      </div>
+    </section>
+
+    <script>
+      const header = document.querySelector("header");
+      const hamburgerBtn = document.querySelector("#hamburger-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+    hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+      cl
+      oseMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+    
+  </body>
+</html>
